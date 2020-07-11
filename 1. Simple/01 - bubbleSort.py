@@ -25,13 +25,14 @@ def swap(arrayList, indexA, indexB):
     arrayList[indexB] = aux       
 
 list = [1,2,-4,3,-24,2,30,-23]
+list5 = [75, 26, 15, 67, 85, 54, 31, 49]
 #Regular bubble sort
 start = time.time()
-print(bubbleSort(list))
+print(bubbleSort(list5))
 finish = time.time()
 print('Regular bubble sort time (ms)', str(1000*(finish-start)))
 #Fast bubble sort
 start = time.time()
-print(bubbleBetterSort(list))
+print(bubbleBetterSort(list5))
 finish = time.time()
 print('Fast bubble sort time (ms)', str(1000*(finish-start)))

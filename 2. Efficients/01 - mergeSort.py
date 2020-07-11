@@ -33,5 +33,5 @@ list2 = [1,2,-4,3,2,30,-23]
 start = time.time()
 print(mergeSort(list))
 finish = time.time()
-print('Regular insertion sort time (ms)', str(1000*(finish-start)))
+print('Regular merge sort time (ms)', str(1000*(finish-start)))
 
